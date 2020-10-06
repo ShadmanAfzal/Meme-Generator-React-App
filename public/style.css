@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+body
+{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+h2
+{
+    text-align: center;
+    font-family: 'Impact', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.memeface
+{
+    height: 80%;
+    padding: 50px;
+}
+.Header
+{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color:#6441A5;
+    background: linear-gradient(to right,#4b2263,#6441a5);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meme-form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+input[type=text]
+{
+    margin: 16px;
+    width: 25%;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+button
+{
+    margin: 16px;
+    background-color: #6441a5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 0.1px black;
+    
+}
+
+button:focus { outline: none; }
+input:focus { outline: none; }
+
+.memes
+{
+    position: relative;
+}
+
+.meme
+{
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.Toptext
+{
+    text-align: start;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    z-index: 9999;
+}
+
+
+
+.bottomtext
+{
+    text-align: start;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    z-index: 9999;
+    letter-spacing: 1px;
+}
+
+button:hover
+{
+    background-color: #4b2263;
+}
